@@ -1,0 +1,10 @@
+[Unit]
+Description=Matt's System Control
+
+[Service]
+ExecStart=/usr/local/bin/msctld
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
