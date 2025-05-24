@@ -17,5 +17,5 @@
 
 // Boundry value
 
-#define BRIGHTNESS_STEP             250
-#define BRIGHTNESS_MIN              250
+#define BRIGHTNESS_STEP             2000
+#define BRIGHTNESS_MIN              1000
