@@ -55,7 +55,7 @@ int ParseArguments(struct Arguments* args_dest, int argc, char** args)
             {
                 if(args_dest->command != CMD_BRIGHTNESS){ eprintf("ERROR: Unknown argument '--down'\n"); return 0; }
                 if(args_dest->brightness_direction != B_NULL){ eprintf("ERROR: Brightness direction set more than once.\n"); return 0; }
-                args_dest->brightness_direction = B_UP;
+                args_dest->brightness_direction = B_DOWN;
                 continue;
             }
 
